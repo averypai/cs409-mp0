@@ -1,1 +1,37 @@
 /* Your CSS here. */
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.color-card {
+  width: 750px;
+  margin-top: 50px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease-in-out;
+  background-color: #ffd900;
+}
+
+.color-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.color-name {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.color-hex {
+  margin: 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
